@@ -1,0 +1,16 @@
+*{
+	padding:0;
+	margin:0;
+}
+.topBar{
+	left: 0;
+	top: 0;
+	height: 56px;
+	width:100%;
+	display: block;
+	position: fixed;
+	background-color: white;
+	box-sizing: border-box;
+	border-top: 3px solid hsl(27,89%,48%);
+	border-bottom: 1px solid hsl(210,8%,85%);
+}
