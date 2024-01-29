@@ -1,0 +1,108 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.topBar {
+	left: 0;
+	top: 0;
+	height: 56px;
+	width: 100%;
+	display: block;
+	position: fixed;
+	background-color: white;
+	box-sizing: border-box;
+	border-top: 3px solid hsl(27, 89%, 48%);
+	border-bottom: 1px solid hsl(210, 8%, 85%);
+}
+
+.topBar .container {
+	width: 95%;
+	max-width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.largeImage {
+	width: 150px;
+	height: 30px;
+}
+
+.smallImage {
+	width: 25px;
+	height: 30px;
+}
+
+.navText {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 14px;
+	color: #636B74;
+}
+
+.text p {
+	cursor: pointer;
+	padding: 6px 12px;
+}
+
+.text p:hover {
+	border-radius: 20px;
+	background-color: #D3D3D3;
+}
+
+.topSearchForm {
+	padding: 0.5%;
+	display: flex;
+	align-items: center;
+	flex-grow: 0.8;
+}
+
+.searchBox {
+	display: flex;
+	align-items: center;
+	border-radius: 5px;
+	border: 1px solid hsl(210, 8%, 68%);
+	cursor: auto;
+	margin-right: 1%;
+}
+
+form {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.searchSection {
+	position: relative;
+	flex-grow: 1;
+	border: 1px solid hsl(210, 9%, 75%);
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+}
+
+.inputBox {
+	width: 100%;
+}
+
+.searchLens {
+
+	margin-top: 1px;
+	position: absolute;
+	top: 10%;
+}
+
+.svg HiddenLens {
+	color: hsl(210, 8%, 42%);
+}
+
+.btnLens {
+	display: flex;
+	align-items: center;
+}
