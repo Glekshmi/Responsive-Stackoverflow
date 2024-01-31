@@ -33,7 +33,7 @@ input{
 }
 
 .bodySection {
-	padding-top: 58px;
+	padding-top: 60px;
 	display: flex;
 }
 
@@ -290,17 +290,24 @@ input{
 	//background: aliceblue;
 }
 
-.userImg {
-	margin: 8px;
+.imgStyle{
+	
 	box-shadow:0 1px 2px hsla(0,0%,0%,0.05),0 1px 4px hsla(0,0%,0%,0.05),0 2px 8px hsla(0,0%,0%,0.05); 
 	border-radius:6px;
 	cursor:pointer;
 }
 
-.userImg img {
-	border-radius: 6px;
+.desc{
+	font-size: 13px;
+	color: #636B74;
+	
 }
-
+.hiddenClass{
+	justify-content:space-between;
+}
+ul li{
+	list-style:none;
+}
 .userDetails h1 {
 	font-size: 35px;
 	font-weight: 400;
@@ -1160,7 +1167,7 @@ input{
 	
 }
 .profileBtn{
-	padding: 6px;
+	padding: 4px;
 	border: 1px solid hsl(210,9%,75%);
 	border-radius: 5px;
 	background:white;
