@@ -40,8 +40,7 @@ input{
 /* sidebar begins */
 
 .sidebarLeft {
-	padding-top: 30px;
-	padding-left: 50px;
+	
 	//max-height: 545px;
 	//overflow-y: auto;
 }
@@ -302,9 +301,7 @@ input{
 	color: #636B74;
 	
 }
-.hiddenClass{
-	justify-content:space-between;
-}
+
 ul li{
 	list-style:none;
 }
@@ -557,7 +554,7 @@ ul li{
 	align-items:center;
 	grid-column-gap: 25px 
 }
-.communities_head a{
+.communitieshead a{
 	color: #636B74;
 	font-size:13px;
 }
@@ -1205,17 +1202,39 @@ ul li{
 	font-size:11px;
 	color:#636B74;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.centerUserDesc {
+	font-size:13px;
+	color:#636B74;
+}
+.hiddenClass{
+	justify-content:space-between;
+}
+.col-sm-4 svg{
+	fill: hsl(210, 8%, 68%);
+}
+.userNameTop{
+	font-size:25.3px;
+	color:#0C0D0E;
+}
+.temp p{
+	font-size:13px;
+}
+.largeImgStyle{
+	box-shadow:0 1px 2px hsla(0,0%,0%,0.05),0 1px 4px hsla(0,0%,0%,0.05),0 2px 8px hsla(0,0%,0%,0.05); 
+	border-radius:6px;
+	cursor:pointer;
+}
+.mediumText{
+	font-size:13px;
+}
+.mediumWidA{
+	width:118%;
+}
+.mediumWidB{	
+	width:113%;
+}
+p{
+	margin-bottom:0px;
+}
 
 
