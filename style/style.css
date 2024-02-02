@@ -302,9 +302,7 @@ input{
 	
 }
 
-ul li{
-	list-style:none;
-}
+
 .userDetails h1 {
 	font-size: 35px;
 	font-weight: 400;
@@ -460,10 +458,6 @@ ul li{
 	border-radius: 5px;
 }
 
-.rightContent {
-	padding-left: 25px;
-}
-
 .statsBox h4 {
 	font-size: 17px;
 	color: #OCODOE;
@@ -502,9 +496,7 @@ ul li{
 	margin-bottom:20px;
 	color:#3B4045;
 }
-.authorDesc ul{
-	margin-left:30px;
-}
+
 .authorDesc li{
 	margin-bottom:10px;
 }
@@ -621,7 +613,7 @@ ul li{
 }
 .readmore{
 	margin-top:40px;
-	width:50%;
+	width:56%;
 	display:flex;
 	justify-content:end;
 	border-radius:10px;
@@ -644,7 +636,7 @@ ul li{
 .badges{
 	margin-top:20px;
 }
-.badgeBeader{
+.badgeHeader{
 	display:flex;	
 	align-items:center;
 	justify-content:space-between;
