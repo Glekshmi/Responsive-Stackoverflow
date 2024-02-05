@@ -839,7 +839,8 @@ input{
 	background-color:hsl(210,80%,91%);
 }
 .topPostsRight{
-	display:flex;
+	display: flex;
+    	justify-content: end;
 }
 .topPostsRightBox1{
 	display:flex;
@@ -849,8 +850,8 @@ input{
 }
 .topPosts{
 	margin-top:20px;
-	display:flex;
-	justify-content:space-between;
+	//display:flex;
+	//justify-content:space-between;
 }
 .topPostsRight{
 	padding-top:11px;
